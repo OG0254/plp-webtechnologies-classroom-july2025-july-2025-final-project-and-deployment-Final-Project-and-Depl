@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>FinEdge — Join Waitlist</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header alt">
+        <div class="container header-inner">
+            <div class="logo">Fin<span>Edge</span></div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="product.html" class="nav-link">Product</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link active cta">Join Waitlist</a>
+            </nav>
+            <button class="nav-toggle" aria-label="Open menu">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <div class="container">
+                <h1>Join the FinEdge waitlist</h1>
+                <p class="lead">Early access, product updates and priority support for beta users.</p>
+            </div>
+        </section>
+
+        <section class="contact-form container">
+            <form id="waitlistForm" novalidate>
+                <div class="grid">
+                    <div>
+                        <label for="fullname">Full name</label>
+                        <input id="fullname" name="fullname" type="text" placeholder="Jane Doe" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="you@domain.com" required>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="role">I am a</label>
+                    <select id="role" name="role">
+                        <option>Consumer</option>
+                        <option>Small Business Owner</option>
+                        <option>Developer / Integrator</option>
+                        <option>Investor</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message">Tell us why you want to join (optional)</label>
+                    <textarea id="message" name="message" rows="4" placeholder="I run a small shop..."></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Join Waitlist</button>
+                    <button type="button" id="clearBtn" class="btn btn-ghost">Clear</button>
+                </div>
+
+                <p class="muted">We respect your privacy. We'll never share your information.</p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>© 2025 FinEdge</div>
+            <div class="socials"><a href="#">Twitter</a> <a href="#">LinkedIn</a></div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
