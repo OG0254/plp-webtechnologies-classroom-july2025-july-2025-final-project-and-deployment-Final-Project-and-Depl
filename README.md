@@ -12,7 +12,8 @@ transactions, and personal finance management.
 
 ## 🌐 Live Demo
 
-[Live Website URL](https://your-live-demo-link.com)
+[[Live Website URL](https://your-live-demo-link.com)](https://OG0254.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
+)
 
 ## 📂 Project Structure
 
