@@ -1,90 +1,67 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# FinEdge Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+## 🚀 Project Overview
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+This project is a multipage responsive website built as part of the
+**Final Assignment** for demonstrating skills in **HTML5, CSS3,
+JavaScript, and Deployment**.
 
----
+The website is a prototype for **FinEdge**, a fintech startup concept
+that provides modern digital financial solutions --- savings,
+transactions, and personal finance management.
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## 🌐 Live Demo
 
-Before you write any code, take time to plan:
+[Live Website URL](https://your-live-demo-link.com)
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+## 📂 Project Structure
 
-**Goal:** Show intentional structure and user journey across the site.
+    FinEdge-Website/
+    │
+    ├── index.html          # Home Page
+    ├── about.html          # About Us Page
+    ├── services.html       # Services / Features Page
+    ├── contact.html        # Contact Page
+    │
+    ├── css/
+    │   └── style.css       # Main stylesheet
+    │
+    ├── js/
+    │   └── script.js       # JavaScript interactivity
+    │
+    ├── images/             # Logos, mockups, assets
+    │
+    └── README.md           # Project documentation
 
----
+## 🛠️ Features
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+-   Responsive design (mobile-first approach)
+-   Semantic HTML5 structure
+-   CSS3 animations and styling
+-   JavaScript interactivity:
+    -   Navigation menu toggle
+    -   Contact form validation
+-   Clear multipage navigation
 
-Using your plan, begin building:
+## 🎯 Assignment Requirements Covered
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+-   **Planning**: Site purpose, layout, and structure defined
+-   **Building**: Used HTML5, CSS3, and JavaScript across 4 pages
+-   **Best Practices**: Organized file structure, clean commented code
+-   **Deployment**: Deployed online with a shareable live link
 
-Each page should:
+## 📦 Deployment Options
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+You can deploy using any of the following: - **GitHub Pages** -
+**Netlify** - **Vercel**
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+## 👥 Authors
 
----
+-   **Ogada Brian** -- Backend Developer (Python, APIs, Databases)
+-   **Shane Stephen** -- Frontend Developer (Web & Mobile with
+    Kotlin)
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+------------------------------------------------------------------------
 
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+⚡ *This project is a foundation. Future upgrades will include real
+fintech dashboard UI, interactive charts, and dark mode toggle.*
